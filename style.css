@@ -5,7 +5,6 @@ body {
 }
 
 .content {
-    background-color: grey;
     display: flex;
     flex: 1;
     flex-direction: column;
@@ -40,10 +39,8 @@ a {
 }
 
 .item-1 img {
-    max-width: 400px;
-    max-height: 200px;
-    width: auto;
-    height: auto;
+    width: 600px;
+    height: 200px;
 }
 
 .item-1 .main-text {
@@ -58,6 +55,44 @@ a {
 .information-header {
     font-size: 36px;
     font-weight: 800;
+}
+
+.item-2 {
+    text-align: center;
+}
+
+.item-2 .images{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    flex-wrap: wrap;
+}
+
+.item-2 .images img {
+    width: 200px;
+    height: 200px;
+}
+
+.item-2 .info {
+    max-width: 200px;
+}
+
+.item-3 {
+    background-color: #e5e7eb;
+}
+.item-3 .quote {
+    font-size: 36px;
+    color: #1F2937;
+}
+.item-3 .quot-er {
+    font-weight: 700;
+}
+
+.item-4 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
 
 .header, .footer, .item-1 {
