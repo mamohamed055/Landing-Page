@@ -100,4 +100,25 @@ a {
     color: white;
 }
 
+.footer {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.content > div {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.header > div {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.header .links {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
 
